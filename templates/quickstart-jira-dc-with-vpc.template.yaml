@@ -652,7 +652,7 @@ Parameters:
     Description: CIDR Block for the public DMZ subnet 2 located in Availability Zone 2.
     Type: String
   QSS3BucketName:
-    Default: 'aws-quickstart'
+    Default: 'sam-jira'
     AllowedPattern: ^[0-9a-zA-Z]+([0-9a-zA-Z-]*[0-9a-zA-Z])*$
     ConstraintDescription: Quick Start bucket name can include numbers, lowercase
       letters, uppercase letters, and hyphens (-). It cannot start or end with a hyphen
